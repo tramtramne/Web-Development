@@ -1,0 +1,152 @@
+#title{
+  background-color: #ff4c68;
+}
+/* 
+body{
+  
+} */
+
+#title{
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+  font-weight: 600;
+}
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding-left: 18px;
+}
+.nav-link{
+  font-size: 1.0rem;
+  font-weight: 300;
+}
+
+/* Download Button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+
+/* Title Image */
+.title-image{
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+
+#features{
+  padding: 10%;
+  color: #000;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.item{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.item-title{
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 20px auto;
+}
+.item-content{
+  color: #8f8f8f;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+
+#press{
+  padding: 1% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-logo{
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Test */
+#pricing{
+  text-align: center;
+  padding: 7% 5%;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 24rem;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.btn-card{
+  width: 100%;
+}
+
+.card-header{
+  height: 60px;
+  padding: 20px ;
+  align-items: center;
+  
+}
