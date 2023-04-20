@@ -1,22 +1,39 @@
 #title{
   background-color: #ff4c68;
 }
-/* 
+
 body{
-  
-} */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
 
 #title{
   color: #fff;
 }
 
+/* Container */
+
 .container-fluid{
   padding: 3% 15%;
 }
+
+
+/* Section */
+.white-section{
+  background-color: #fff;
+
+}
+.colored-section{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
+  font-weight: 900;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -35,7 +52,7 @@ h3{
 p{
   font-family: 'Montserrat', sans-serif;
   color: #8f8f8f;
-  font-weight: 600;
+  font-weight: 500;
 }
 /* Navigation Bar */
 .navbar{
@@ -53,12 +70,15 @@ p{
   font-size: 1.0rem;
   font-weight: 300;
 }
-
+.content{
+  text-align: left;
+}
 /* Download Button */
 
 .download-button{
-  margin: 5% 3% 5% 0;
-
+  margin: 5% 3% 5% 5%;
+  text-align: left;
+  justify-content: space-evenly;
 }
 
 /* Title Image */
@@ -71,11 +91,10 @@ p{
 
 #features{
   padding: 10%;
-  color: #000;
-  text-align: center;
+  color: #000;text-align: center;
+  
   position: relative;
   z-index: 1;
-  background-color: #fff;
 }
 
 .item{
@@ -103,10 +122,8 @@ p{
 /* Testimonials Section */
 
 #testimonials{
-  padding: 7% 15%;
   background-color: #ef8172;
-  color: #fff;
-  text-align: center;
+  
 }
 .testimonials-image{
   width: 10%;
@@ -117,7 +134,6 @@ p{
 
 #press{
   padding: 1% 15%;
-  text-align: center;
   background-color: #ef8172;
 }
 
@@ -129,7 +145,6 @@ p{
 
 /* Pricing Test */
 #pricing{
-  text-align: center;
   padding: 7% 5%;
   justify-content: space-evenly;
 }
@@ -149,4 +164,40 @@ p{
   padding: 20px ;
   align-items: center;
   
+}
+
+@media (max-width: 1028px){
+  #title{
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 20%;
+  font-family: 'Montserrat';
+}
+.cta-h3{
+  font-size: 2.8rem;
+  line-height: 70px;
+  font-weight: 900;
+}
+.btn-cta{
+  margin: 25px 15px;
+  font-size: 1.1rem;
+  
+}
+
+/* Footer Style */
+#footer{
+  padding: 7% 15%;
+}
+.footer-icon
+{
+  margin: 20px 7px;
+
 }
