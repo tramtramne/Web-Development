@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+  font-family: "Arvo";
+  background-color: #283149;
+}
+h1{
+  font-size: 70px;
+  color: #DBEDF3;
+  text-shadow: 2px 1px 0px rgb(153, 2, 111);
+}
+
+
+button{
+  width: 50px;
+  height: 50px;
+  color: rgb(153, 2, 111);
+  background-color: #fff;
+  border: 3px solid #414f76;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
