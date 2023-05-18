@@ -1,6 +1,6 @@
 // touch server.js
 
-//npm init
+//npm init -> create file .json 
 
 // npm install express
  
@@ -28,5 +28,9 @@ Features
 
 
 
--------- npm install body-parser
+### npm install body-parser ---------
 it allows you to go into any of your routes, and you can tap into something called request.body,and this is the parsed version of the HTTP request.
+
+
+### npm install body-parser ---------
+HTTP request logger middleware for node.js
